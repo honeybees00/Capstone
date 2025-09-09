@@ -1,0 +1,32 @@
+{
+  "category": "Pun",
+  "type": "twopart",
+  "setup": "Why do programmers prefer dark mode?",
+  "delivery": "Because light attracts bugs!",
+  "flags": {
+    "nsfw": false,
+    "religious": false,
+    "political": false,
+    "racist": false,
+    "sexist": false,
+    "explicit": false
+  }
+}
+{
+    "timestamp": "2025-09-09T04:23:54.582Z",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/jokes/"
+}
+//Reset data variable inside .than function test access the data
+//.then((response) => response.json())
+//.then(function(result){
+   // console.log(result);
+   // newOrleansWeatherData = result;
+    //console.log(newOrleansWeatherData);
+    //console.log(newOrleansWeatherData.current.temperature);
+//})
+
+//.then(function(result){
+  //  console.log(result);
+//})
