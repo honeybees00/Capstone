@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Katniss Everdeen",
+    "district": 12,
+    "age": 16
+  },
+  {
+    "id": 2,
+    "name": "Peeta Mellark",
+    "district": 12,
+    "age": 16
+  },
+  ...
+]
+{
+    {
+  "name": "New Tribute",
+  "district": 7,
+  "age": 17
+}
+{
+  "id": 10,
+  "name": "New Tribute",
+  "district": 7,
+  "age": 17
+}
+{
+  "name": "Updated Tribute",
+  "district": 7,
+  "age": 18
+}
+{
+  "id": 1,
+  "name": "Updated Tribute",
+  "district": 7,
+  "age": 18
+}
+{
+  "gameStarted": true,
+  "day": 3,
+  "time": "12:00 PM",
+  "weather": "Sunny"
+}
+{
+  "message": "Hello, tribute!"
+}
+//  "message": "Message sent successfully"
+}
+//{"name": "New Tribute", "district": 7, "age": 17}' https://hungergamesapi.com/tributes

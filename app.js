@@ -37,8 +37,27 @@ updateatherCard//
    setText("windSpeed", newOrleansWeather.current.windSpeed);
   }
 onEvent  ("fetchNewOrleansWeather") function(){
- .then(function(result){
+ .then(function(respose.json){
 console.log(result);
 })
 
-}
+} 
+import os
+from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://router.huggingface.co/v1",
+    api_key=os.environ["HF_TOKEN"],
+)
+
+completion = client.chat.completions.create(
+    model="meta-llama/Llama-3.3-70B-Instruct:fireworks-ai",
+    messages=[
+        {
+            "role": "user",
+            "content": "What is the capital of France?"
+        }
+    ],
+)
+
+print(completion.choices[0].message)

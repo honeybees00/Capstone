@@ -27,3 +27,7 @@ function sendtoModel(){
       console.log(JSON.stringify(response));
     });
 }
+onEvent("age>7 || age>24,", funtion()
+setText("Welcome tribute", "May the odds be forever in your favor");
+});
+
